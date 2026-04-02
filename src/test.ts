@@ -1,4 +1,4 @@
-import { httpsets } from "./main.ts";
+import { httpsets } from "./main";
 
 async function test() {
     console.log("Testing GET request...");
@@ -9,7 +9,7 @@ async function test() {
       id: number;
       title: string;
       completed: boolean;
-    }[]>("https://my-json-server.typicode.com//vedanshshetti/httpsets/users/");
+    }[]>("https://jsonplaceholder.typicode.com/todos/");
 
     const data = res.json;
 

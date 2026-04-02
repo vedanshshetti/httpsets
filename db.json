@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "age": 28,
+    "isActive": true,
+    "roles": ["admin", "editor"]
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "age": 34,
+    "isActive": false,
+    "roles": ["viewer"]
+  },
+  {
+    "id": 3,
+    "name": "Charlie Lee",
+    "email": "charlie.lee@example.com",
+    "age": 22,
+    "isActive": true,
+    "roles": ["editor"]
+  }
+]

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:deno": "deno --allow-net src/test.ts",
-    "test:node": "node-ts ./src/test.ts",
+    "test:node": "ts-node ./src/test.ts",
     "build": "tsc"
   },
   "keywords": [],

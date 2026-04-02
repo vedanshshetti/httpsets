@@ -1,4 +1,4 @@
-import { httpsets } from "./main.ts";
+import { httpsets } from "./main";
 
 async function test() {
     console.log("Testing GET request...");

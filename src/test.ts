@@ -9,7 +9,7 @@ async function test() {
       id: number;
       title: string;
       completed: boolean;
-    }[]>("https://jsonplaceholder.typicode.com/todos/");
+    }[]>("https://my-json-server.typicode.com//vedanshshetti/httpsets/users/");
 
     const data = res.json;
 

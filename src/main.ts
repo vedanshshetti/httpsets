@@ -12,6 +12,7 @@ export const httpsets: HTTPSets = {
     return {
       json,
       status: res.status,
+      headers: res.headers
     };
   },
   /**
@@ -36,6 +37,7 @@ export const httpsets: HTTPSets = {
     return {
       json,
       status: res.status,
+      headers: res.headers
     };
   },
   /**
@@ -60,6 +62,7 @@ export const httpsets: HTTPSets = {
     return {
       json,
       status: res.status,
+      headers: res.headers
     };
   },
     /**
@@ -76,6 +79,7 @@ export const httpsets: HTTPSets = {
     return {
       json,
       status: res.status,
+      headers: res.headers
     };
   },
 };

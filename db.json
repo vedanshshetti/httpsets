@@ -1,4 +1,5 @@
-[
+{
+    "users": [
   {
     "id": 1,
     "name": "Alice Johnson",
@@ -23,4 +24,28 @@
     "isActive": true,
     "roles": ["editor"]
   }
+],
+"posts": [
+  {
+    "id": 1,
+    "title": "Introduction to JSON",
+    "content": "JSON stands for JavaScript Object Notation...",
+    "authorId": 1,
+    "tags": ["json", "javascript", "data"]
+  },
+  {
+    "id": 2,
+    "title": "Getting Started with Node.js",
+    "content": "Node.js is a JavaScript runtime built on Chrome's V8 engine...",
+    "authorId": 2,
+    "tags": ["nodejs", "javascript", "backend"]
+  },
+  {
+    "id": 3,
+    "title": "Understanding Asynchronous Programming",
+    "content": "Asynchronous programming allows you to handle operations that take time to complete...",
+    "authorId": 3,
+    "tags": ["asynchronous", "javascript", "programming"]
+  }
 ]
+}

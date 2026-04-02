@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:deno": "deno --allow-net src/test.ts",
-    "test:node": "tsc --project tsconfig.test.json && node ./dist/test.js",
+    "test:node": "node-ts ./src/test.ts",
     "build": "tsc"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "MIT",
   "packageManager": "pnpm@10.30.1",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
   }
 }

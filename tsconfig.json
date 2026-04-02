@@ -9,5 +9,5 @@
         "outDir": "./dist"
     },
     "strict": true,
-    "include": ["./src/main.ts"]
+    "include": ["./src/main.ts", "./src/test.ts"]
 }
